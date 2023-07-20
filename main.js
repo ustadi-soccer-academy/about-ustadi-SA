@@ -33,9 +33,9 @@ menuButton[4].addEventListener("mouseout", returnColor);
 // to change photos randomly after 2 seconds on programmes section
 const photo = document.querySelectorAll(".photo");
 const randomNumber = Math.floor(Math.random() * photo.length);
-const programmes = getElementById("programmes")
+const programmes = document.getElementById("programmes")
 
-setInterval(switchPhotos, 2000);
+/*setInterval(switchPhotos, 2000);
 function switchPhotos() {
     for (let i = 0; i < photo.length; i++) {
 programmes.styles.backgroundImage = photo[randomNumber];
@@ -44,4 +44,4 @@ programmes.styles.backgroundImage = photo[randomNumber];
 
 
 
-body.addEventListener('onload',switchPhotos);
+body.addEventListener('onload',switchPhotos);*/
