@@ -258,10 +258,10 @@ footer img {
     opacity: 0.8;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-@media only screen and (min-width:375px) and (max-width: 677px) {
+@media only screen and (max-width:375px) and (min-height: 677px) {
    * {
     margin: 0 0;
-    width: 100%;
+    width: auto;
    }
    
     .nav-content ul {
@@ -279,9 +279,14 @@ footer img {
         height: 100px;
         flex-wrap: wrap;
         display: flex;
+        width: 350px;
     }
     #logo {
         width: 100px;
+    }
+    .content-1, .content-2 {
+        display: block;
+        height: fit-content;
     }
     .content-3 {
         height: 1500px;
@@ -290,5 +295,8 @@ footer img {
     .content-3 img {
         max-width: 200px;
         max-height: 200px;
+    }
+    footer {
+        width: 350px;
     }
 }
