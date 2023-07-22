@@ -287,6 +287,7 @@ footer img {
     .content-1, .content-2 {
         display: block;
         height: fit-content;
+        width: auto;
     }
     .content-3 {
         height: 1500px;
@@ -297,6 +298,6 @@ footer img {
         max-height: 200px;
     }
     footer {
-        width: 350px;
+        width: 100%;
     }
 }
